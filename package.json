@@ -1,0 +1,21 @@
+{
+  "name": "vue-spa",
+  "version": "1.0.0",
+  "description": "Author: Fledin Ymerasi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
