@@ -10,5 +10,4 @@ export default context => {
     context.initialState = store.state
     return app
   })
-  return app
 }
