@@ -9,6 +9,7 @@ describe('Post.vue', () => {
         link: 'http://www.pluralsight.com'
       }
     }).$mount()
-    console.log(comp)
+    expect(comp.$el.querySelector('.card-footer-item').getAttribute('href'))
+      .to.equal('http://www.pluralsight.com')
   })
 })
